@@ -70,6 +70,9 @@ h3 {
 	background-size: cover;
 	background-position: center;
 }
+.carousel.fade {
+	opacity: 1;
+}
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
