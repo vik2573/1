@@ -73,18 +73,75 @@ h3 {
 .carousel.fade {
 	opacity: 1;
 }
-
+.carousel.fade .item {
+	opacity: 0;
+	transition: opacity .5s;
+	display: block;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+.carousel.fade .item.active {
+	opacity: 1;
+	position: relative;
+	z-index: 2;
+}
+.menu-carousels .carousel-caption {
+  left: 0px;
+	right: 25%;
+	top: 250px;
+}
+.menu-carousels .carousel-caption h1 {
+	font-weight: 700;
+	font-size: 48px;
+}
+.menu-carousels .carousel-caption p {
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+.menu-carousels .carousel-caption .btn-red {
+	padding: 10px 20px;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 24px;
+  text-decoration: none;
+}
+.menu-carousels .left  {
+	z-index: 10;
+}
+.menu-carousels .right  {
+	z-index: 10;
+}
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 	.menu-top .navbar-nav {
 		float: none !important;
 	}
+	.menu-carousels .carousel-caption {
+		left: 20%;
+	}
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	
+
+	.menu-carousels .carousel-caption h1 {
+		font-size: 40px;
+	}
+	.menu-carousels .carousel-caption p {
+		font-size: 25px;
+		margin-bottom: 22px;
+	}
+	.menu-carousels .carousel-caption .btn-red {
+		padding: 10px 20px;
+		border-radius: 3px;
+		color: #fff;
+		font-size: 16px;
+	}
 }
+
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
@@ -102,5 +159,10 @@ h3 {
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+	.menu-carousels .carousel-caption .btn-red {
+	  font-size: 14px;
+		padding: 10px;
+		left: 0;
+		right: 0;
+	}
 }
