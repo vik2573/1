@@ -197,7 +197,17 @@ h3 {
 	z-index: 30;
 	display: none;
 }
-
+.main-slogan {
+	background: #fff;
+	text-align: center;
+	padding: 50px 0;
+	border-top: 1px solid #cfcfcf;
+	border-bottom: 3px solid #dadada;
+}
+.main-slogan h1 {
+	font-size: 30px;
+	margin: 0;
+}
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
