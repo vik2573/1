@@ -208,6 +208,37 @@ h3 {
 	font-size: 30px;
 	margin: 0;
 }
+.sidebar {
+	padding: 50px 0 70px;
+	border-right: 3px solid #dadada;
+}
+.widget {
+	border-bottom: 3px solid #dadada;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+.widget h3,
+.content h3 {
+  margin-top: 0;
+	margin-bottom: 30px;
+}
+.content {
+	padding: 50px 0 70px;
+}
+.widget ul {
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+.widget ul li a {
+	color: #000;
+	font-size: 16px;
+	line-height: 30px;
+	display: block;
+}
+.widget ul li.more a {
+	color: #358acd;
+}
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -248,6 +279,12 @@ h3 {
 		border-radius: 3px;
 		color: #fff;
 		font-size: 16px;
+	}
+	.sidebar {
+		padding-top: 0;
+		padding-bottom: 0;
+		border-right: none;
+
 	}
 }
 
@@ -294,7 +331,11 @@ h3 {
 		background: transparent;
 	}
 }
-
+@media only screen and (max-width : 540px) {
+  .sidebar .col-xs-6 {
+		width: 100%;
+	}
+}
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 	.menu-carousels .carousel-caption .btn-red {
