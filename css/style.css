@@ -239,6 +239,89 @@ h3 {
 .widget ul li.more a {
 	color: #358acd;
 }
+.sidebar .sidebar-carousel-caption {
+	border-bottom:1px solid #e1e1e1;
+	background: #fff;
+	padding: 20px 0;
+
+}
+.sidebar .sidebar-carousel-caption h4 {
+	font-weight: bold;
+	font-size: 14px;
+	margin: 0 19px;
+}
+.sidebar .sidebar-carousel-caption p {
+	text-align: center;
+	font-size: 12px;
+	margin: 20px;
+	color: #5b5b5b;
+}
+.sidebar .carousel-indicators {
+	background: #fff;
+	position: relative;
+	bottom: 0;
+	left: 0;
+	width: auto;
+	margin-left: 0;
+	margin-bottom: 25px;
+	padding: 5px 0;
+}
+.sidebar .carousel-indicators li {
+	background: #9a9a9a;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px;
+}
+.sidebar .carousel-indicators li.active {
+	background: #5b5b5b;
+}
+.sidebar .banner {
+	background: #fff;
+	text-align: center;
+	margin-bottom: 25px;
+}
+.sidebar .banner img {
+	margin-bottom: 30px;
+}
+.sidebar .banner h2,
+.sidebar .banner h3 {
+	text-transform: uppercase;
+	margin: 0;
+}
+.sidebar .banner h2 {
+	font-size: 28px;
+	font-weight: bold;
+}
+.sidebar .banner h3 {
+	font-size: 18px;
+}
+.sidebar .banner a.btn-red {
+	padding: 5px 30px;
+	margin: 24px 0;
+	display: inline-block;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-radius: 3px;
+	transition: all .5s;
+}
+.sidebar .banner a.btn-red:hover {
+	color: #fff;
+	text-decoration: none;
+}
+.sidebar .about {
+	padding-right: 43px;
+}
+.sidebar .about h3 {
+	margin:0 0 25px;
+}
+.sidebar .about p {
+	color: #585858;
+	margin-bottom: 30px;
+}
+.sidebar .about p span {
+	color: #0a94b2;
+}
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -261,6 +344,10 @@ h3 {
 	}
 	.main-menu .search {
 		display: block;
+	}
+	.sidebar .carousel,
+	.sidebar .banner {
+		margin-right: 20px;
 	}
 }
 
@@ -285,6 +372,10 @@ h3 {
 		padding-bottom: 0;
 		border-right: none;
 
+	}
+	.sidebar .carousel,
+	.sidebar .banner {
+		margin-right: 0;
 	}
 }
 
@@ -334,6 +425,10 @@ h3 {
 @media only screen and (max-width : 540px) {
   .sidebar .col-xs-6 {
 		width: 100%;
+	}
+	.sidebar .carousel,
+	.sidebar .banner {
+		display: inline-block;
 	}
 }
 /* Extra Small Devices, Phones */
