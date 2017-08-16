@@ -222,9 +222,6 @@ h3 {
   margin-top: 0;
 	margin-bottom: 30px;
 }
-.content {
-	padding: 50px 0 70px;
-}
 .widget ul {
 	list-style: none;
 	padding-left: 0;
@@ -322,7 +319,70 @@ h3 {
 .sidebar .about p span {
 	color: #0a94b2;
 }
+.content {
+	padding: 50px 0 70px;
+}
+.product {
+	background: #fff;
+	border: 1px solid #c0c0c0;
+	padding: 25px 15px;
+	text-align: center;
+	position: relative;
+	height: 452px;
+	overflow: hidden;
+	transition: .5s;
+}
+.product:hover {
+	box-shadow: 0 0 16px rgba(0, 0, 0, .5);
+}
+.product-favorites {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+}
+.product-favorites span {
+	color: #909090;
+	font-size: 20px;
+}
+.product-sale {
 
+}
+.product-img {
+	height: 200px;
+	width: 100%;
+}
+.product-title a {
+	font-weight: 700;
+	color: #000;
+	text-transform: uppercase;
+	max-height: 40px;
+	overflow: hidden;
+}
+.product-deck {
+	max-height: 60px;
+	overflow: hidden;
+}
+.product-price {
+	font-size: 18px;
+	font-weight: bold;
+	color: #d51e08;
+	margin-bottom: 15px;
+}
+.product-buy {
+	position: absolute;
+	bottom: 28px;
+	left: 0;
+	text-align: center;
+	width: 100%;
+}
+.product-buy .btn {
+	text-transform: uppercase;
+	padding: 10px 25px;
+	border-radius: 2px;
+}
+.product-buy .btn:hover {
+	background: #ececec;
+}
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 	.menu-top .navbar-nav,
