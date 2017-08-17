@@ -322,6 +322,18 @@ h3 {
 .content {
 	padding: 50px 0 70px;
 }
+.content h3 {
+	padding-left: 15px;
+}
+.products-row {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.banner-row {
+	margin-bottom: 50px;
+	text-align: center;
+}
+
 .product {
 	background: #fff;
 	border: 1px solid #c0c0c0;
@@ -461,6 +473,9 @@ h3 {
 		margin: 20px 0;
 	}
 	.product {
+		margin-bottom: 10px;
+	}
+	.banner-row img {
 		margin-bottom: 10px;
 	}
 }
