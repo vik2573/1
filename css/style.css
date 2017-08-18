@@ -321,7 +321,7 @@ h3 {
 	color: #0a94b2;
 }
 .content {
-	padding: 50px 0 70px;
+	padding: 50px 0 30px;
 }
 .content h3 {
 	padding-left: 15px;
@@ -433,6 +433,16 @@ h3 {
 .bottom-content .form-inline .btn:hover {
 	background: #d96340;
 	transition: all .5s;
+}
+.bottom-slider {
+	background: #ffffff;
+	padding: 35px 0;
+}
+.elastislide-wrapper {
+	box-shadow: none;
+}
+.elastislide-wrapper nav span {
+
 }
 
 /* Large Devices, Wide Screens */

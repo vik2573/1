@@ -1,4 +1,4 @@
-
+jQuery(document).ready(function ($) {
 $(function () {
 	$('.carousel').carousel({
 		interval: false
@@ -7,8 +7,12 @@ $(function () {
 	$('.search').on('click',function () {
 		$(".main-menu .navbar-form").slideToggle();
 	});
+
+	$('#elastislide').elastislide();
 });
-$(document).ready(function () {
+
+
+
   var carouselCaptionWidth = $('#carousel-sidebar .carousel-inner .active img').width();
 	$('#carousel-sidebar .carousel-inner img').each(function () {
     $('this').attr('width', carouselCaptionWidth);
