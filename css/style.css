@@ -444,7 +444,27 @@ h3 {
 .elastislide-wrapper nav span {
 
 }
-
+.footer-menu {
+	background: #343434;
+	padding: 30px 0;
+}
+.footer-menu h5 {
+	color: #c8c8c8;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.footer-menu ul {
+	list-style: none;
+	padding: 0;
+}
+.footer-menu ul li a {
+	color: #c8c8c8;
+	line-height: 22px;
+}
+.footer-copyright {
+	background: #ffffff;
+	padding: 25px 0;
+}
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 	.menu-top .navbar-nav,
@@ -470,6 +490,10 @@ h3 {
 	.sidebar .carousel,
 	.sidebar .banner {
 		margin-right: 20px;
+	}
+	.social-icons img {
+		display: block;
+		margin-bottom: 3px;
 	}
 }
 
@@ -501,6 +525,16 @@ h3 {
 	}
 	.bottom-content .form-inline {
 		margin-top: 20px;
+	}
+	.footer-menu ul li a {
+		display: block;
+	}
+	.social-icons img {
+		display: inline;
+		margin-bottom: 0;
+	}
+	.pay {
+		text-align: left;
 	}
 }
 
